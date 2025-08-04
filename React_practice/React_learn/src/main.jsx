@@ -9,9 +9,10 @@ import Input from './Input.jsx'
 import UseEffectCount from './UseEffectCount.jsx'
 import UseRef from './useRef.jsx'
 import UseRefCount from './UseRefCount.jsx'
+import ContentChange from './ContentChange.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UseRefCount />
+    <ContentChange />
   </StrictMode>,
 )
