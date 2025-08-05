@@ -10,10 +10,12 @@ import UseEffectCount from './UseEffectCount.jsx'
 import UseRef from './useRef.jsx'
 import UseRefCount from './UseRefCount.jsx'
 import ContentChange from './ContentChange.jsx'
+import CounterApp from './fetch.jsx'
+import Fetch1 from './fetch1.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ContentChange />
+    <Fetch1 />
   </StrictMode>,
 )
 
