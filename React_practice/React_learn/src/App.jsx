@@ -7,6 +7,7 @@ const App = () =>{
     <>
     <h1>{Count}</h1>
     <button onClick={()=>setCount(Count => Count+1)}>Add</button>
+    <button onClick={()=>setCount(Count => (Count > 0 ? Count-1 : 0) )}>Sub</button>
     </>
   )
 };
